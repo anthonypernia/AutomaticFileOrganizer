@@ -1,0 +1,11 @@
+{
+    "creator":"Anthony Pernia",
+    "folder_to_track" : "/Users/anthonypernia/Downloads",
+    "regex_text" : "(\\.txt|\\.dat|\\.csv)$",
+    "regex_code" : "(\\.py|\\.js|\\.jsx|\\.java|\\.sh|\\.sql|\\.ipynb)$",
+    "regex_documents" : "(\\.xls|\\.xlsx|\\.doc|\\.docx|\\.pdf|\\.docm|\\.ipynb|\\.odt|\\.xlsm|\\.ppt|\\.pptx|\\.pptm|\\.odp)$",
+    "regex_images" : "(\\.jpg|\\.jpeg|\\.png|\\.gif|\\.bmp|\\.tiff|\\.tif|\\.svg)$",
+    "regex_videos" : "(\\.mp4|\\.mov|\\.avi|\\.flv|\\.wmv|\\.m4v|\\.mpg|\\.mpeg|\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv|\\.mkv|\\.wmv)$",
+    "regex_zip" : "(\\.zip|\\.rar|\\.7z|\\.gz|\\.bz2)$",
+    "regex_audio" : "(\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv)$"
+}
