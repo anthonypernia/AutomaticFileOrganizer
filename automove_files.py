@@ -5,7 +5,7 @@ import json
 import re
 import time
 from datetime import datetime
-from apscheduler.schedulers.blocking import BlockingScheduler
+
 
 class FileHandler(FileSystemEventHandler):
 
@@ -116,9 +116,13 @@ def main():
     observer = Observer()
     observer.schedule(event_handler, folder_to_track, recursive=True)
     observer.start()
-    scheduler = BlockingScheduler()
-    scheduler.add_job(scheduler.start, 'interval', seconds=3)
-    observer.join()
+    try:
+        while True:
+            time.sleep(2)
+    except KeyboardInterrupt:
+        observer.stop()
+    finally:
+        observer.join()
   
 
 if __name__ == "__main__":
