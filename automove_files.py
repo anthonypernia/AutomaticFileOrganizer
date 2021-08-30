@@ -27,8 +27,6 @@ class FileHandler(FileSystemEventHandler):
         self.folder_videos = config['video']['folder']
         self.folder_zipp = config['zip']['folder']
         self.folder_audio = config['audio']['folder']
-
-
         return self.folder_to_track
     #This method mode file acording to de scr - dst
     def move_file(self, src: str, dst: str):
