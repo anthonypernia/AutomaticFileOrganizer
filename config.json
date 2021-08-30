@@ -1,11 +1,33 @@
 {
-    "creator":"Anthony Pernia",
     "folder_to_track" : "/Users/anthonypernia/Downloads",
-    "regex_text" : "(\\.txt|\\.dat|\\.csv)$",
-    "regex_code" : "(\\.py|\\.js|\\.jsx|\\.java|\\.sh|\\.sql|\\.ipynb)$",
-    "regex_documents" : "(\\.xls|\\.xlsx|\\.doc|\\.docx|\\.pdf|\\.docm|\\.ipynb|\\.odt|\\.xlsm|\\.ppt|\\.pptx|\\.pptm|\\.odp)$",
-    "regex_images" : "(\\.jpg|\\.jpeg|\\.png|\\.gif|\\.bmp|\\.tiff|\\.tif|\\.svg)$",
-    "regex_videos" : "(\\.mp4|\\.mov|\\.avi|\\.flv|\\.wmv|\\.m4v|\\.mpg|\\.mpeg|\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv|\\.mkv|\\.wmv)$",
-    "regex_zip" : "(\\.zip|\\.rar|\\.7z|\\.gz|\\.bz2)$",
-    "regex_audio" : "(\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv)$"
+    "code" : {
+        "folder" : "Code",
+        "regex" : "(\\.py|\\.js|\\.jsx|\\.java|\\.sh|\\.sql|\\.ipynb|\\.md|\\.json)$"
+    },
+    "text" : {
+        "folder" : "Text",
+        "regex" : "(\\.txt|\\.dat|\\.csv)$"
+    },
+    "image" : {
+        "folder" : "Images",
+        "regex" : "(\\.gif|\\.bmp|\\.tiff|\\.ico|\\.jpg|\\.jpeg|\\.png|\\.bmp|\\.tiff|\\.tif|\\.svg)$"
+    },
+    "video" : {
+        "folder" : "Videos",
+        "regex" : "(\\.mp4|\\.mov|\\.avi|\\.flv|\\.wmv|\\.m4v|\\.mpg|\\.mpeg|\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv|\\.mkv|\\.wmv)$"
+    },
+    "audio" : {
+        "folder" : "Audio",
+        "regex" : "(\\.mp3|\\.wav|\\.wma|\\.aac|\\.mid|\\.midi|\\.wv)$"
+    },
+    "document" : {
+        "folder" : "Documents",
+        "regex" : "(\\.xls|\\.xlsx|\\.doc|\\.docx|\\.pdf|\\.docm|\\.ipynb|\\.odt|\\.xlsm|\\.ppt|\\.pptx|\\.pptm|\\.odp)$"
+    },
+    
+    "zip" : {
+        "folder" : "Zips",
+        "regex" : "(\\.zip|\\.rar|\\.7z|\\.gz|\\.bz2)$"
+    }
+    
 }
